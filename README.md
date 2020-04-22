@@ -1,7 +1,7 @@
 # search-that-site
 
 ## Description
-I found myself constantly searching the same sites over and over again, but those sites had terrible search tools. Instead I began to append the `site:` operator to my searches to get the best of both worlds. The extra typing eventually became too time consuming, so I made this extention.
+I found myself constantly searching the same sites over and over again, but those sites had terrible search tools. Instead of continuing down this painful path, I began to append the `site:` operator to my searches to get the best of both worlds. The extra typing eventually became too time consuming, so I made this extention.
 
 ## Instructions
  - Open a web browser that allows chrome-like extentions
