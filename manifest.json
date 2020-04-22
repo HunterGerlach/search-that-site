@@ -1,0 +1,36 @@
+{
+    "name": "Search That Site",
+    "version": "2.1",
+    "description": "Find yourself using Google's 'site:' search regularly for the same site? If so, then Search That Site is for you. Type in a search term and it will auomatically uses Google Site Search to search that specific site for results.",
+    "manifest_version": 2,
+    "permissions": ["https://*.google.com/", "activeTab", "declarativeContent", "storage"],
+    "icons": {
+      "16": "icon_16.png",
+      "32": "icon_32.png",
+      "64": "icon_64.png",
+      "128": "icon_128.png"
+    },
+    "background": {
+        "persistent": false,
+	"scripts": ["background_script.js"]
+    },
+    "options_page": "options.html",
+    "page_action": {
+	"default_popup": "popup.html",
+        "default_icon": {
+		"16": "icon_16.png",
+		"32": "icon_32.png",
+		"64": "icon_64.png",
+		"128": "icon_128.png"
+	}
+    },
+    "commands": {
+        "_execute_page_action": {
+            "suggested_key": {
+                "default": "Alt+Shift+R",
+                "windows": "Alt+Shift+R",
+                "mac": "Alt+Shift+R"
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+      <div id="siteSettings"></div>
+      <script src="popup-site.js"></script>
+      <hr />
+      <div id="search">
+          <form action="https://www.google.com/search" method="GET" target="_blank">
+		  <input type="hidden" name="q" id="siteAddress">
+              <input id="focus" type="text" name="q" size=31 maxlength=255 value="">
+              <input type="submit" name="sa" value="Search">
+          </form>
+      </div>
+    </body>
+  </html>
