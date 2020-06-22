@@ -27,9 +27,9 @@
     "commands": {
         "_execute_page_action": {
             "suggested_key": {
-                "default": "Alt+Shift+S",
-                "windows": "Alt+Shift+S",
-                "mac": "Alt+Shift+S"
+                "default": "Alt+Shift+W",
+                "windows": "Alt+Shift+W",
+                "mac": "Alt+Shift+W"
             }
         }
     }
