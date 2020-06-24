@@ -2,9 +2,10 @@ let sitePage = document.getElementById('siteDiv');
   const google = {"url": "google.com", "color": {"primary": "#3aa757", "secondary": "#000"}};
   const redhat = {"url": "access.redhat.com", "color": {"primary": "#EE0000", "secondary": "#000"}};
   const k8s    = {"url": "kubernetes.io", "color": {"primary": "#326de6", "secondary": "#fff"}};
+  const ansible= {"url": "docs.ansible.com", "color": {"primary": "#000", "secondary": "#fff"}};
   const so     = {"url": "stackoverflow.com", "color": {"primary": "#f9bb2d", "secondary": "#000"}};
   const ibm    = {"url": "cloud.ibm.com", "color": {"primary": "#0530ad", "secondary": "#fff"}};
-  const kSites = [google, redhat, k8s, so, ibm];
+  const kSites = [google, redhat, k8s, ansible, so, ibm];
   function constructSiteOptions(kSites) {
     for (let item of kSites) {
       let site = document.createElement('p');
